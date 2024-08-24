@@ -1,11 +1,16 @@
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
+import { HeroSection } from "@/components/home/hero";
+import { PublicLayout } from "@/components/layouts";
+import { AnimatePresence, motion } from "framer-motion";
+import { useEffect, useState } from "react";
 
 export default function Home() {
   return (
-    <main>
-      <h1>Welcome to my portfolio</h1>
-    </main>
+    <section className="w-full">
+      <PublicLayout title="Mayank Raj Parmar | Full Stack Web Developer">
+        <div className="w-full relative h-full ">
+          <HeroSection />
+        </div>
+      </PublicLayout>
+    </section>
   );
 }

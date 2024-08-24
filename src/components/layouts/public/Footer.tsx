@@ -15,12 +15,12 @@ const Footer = () => {
           >
             <p>
               Develop and Design by{" "}
-              <span className="text-light-yellow">Chandan</span>
+              <span className="text-light-yellow">Mayank</span>
             </p>
             <p>|</p>
             <p>
-              © copyright {new Date().getFullYear()} Chandan. All rights
-              reserved.
+              © copyright {new Date().getFullYear()} Mayank Raj Parmar. All
+              rights reserved.
             </p>
           </motion.div>
 
