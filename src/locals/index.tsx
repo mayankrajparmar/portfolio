@@ -212,3 +212,67 @@ export const skillSliderSettings = {
     },
   ],
 };
+
+// experience data
+export const experienceData = [
+  {
+    role: "Junior Software Developer",
+    company: "SearchingYard Group",
+    companySite: "https://www.searchingyard.com/",
+    description:
+      "Made significant contributions to developing and improving web applications, including work on diverse projects such as an task management app, CMS, and e-commerce, by demonstrating strong proficiency in React, Next.js, JavaScript, and TypeScript. Effectively applying these skills during the internship, I played a key role in enhancing web applications.",
+    startDate: "May 2023",
+    endDate: "May 2024",
+    skills: [
+      "Javascript",
+      "Typescript",
+      "React",
+      "Next.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Prisma",
+      "Mongoose",
+      "AWS EC2",
+      "AWS S3",
+    ],
+  },
+  {
+    role: "Web Developer Intern",
+    company: "OtakuKart",
+    companySite: "https://otakukart.com/",
+    description:
+      "Developed and optimized an e-commerce platform using ReactJS, and TypeScript, improving user experience and platform performance. Integrated payment gateways and user authentication, ensuring secure transactions and seamless user access.",
+    startDate: "Oct 2022",
+    endDate: "April 2023",
+    skills: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "React",
+      "TailwindCss",
+      "Firebase",
+      "Material UI",
+      "Framer Motion",
+    ],
+  },
+  {
+    role: "AWS Cloud Intern",
+    company: "AICTE NEAT",
+    companySite:
+      "https://www.credly.com/badges/3e5b3aac-5d8b-4a55-9a50-439024934ea8/linked_in_profile",
+    description:
+      "Designed and implemented scalable cloud architectures on AWS, enhancing my expertise in cloud services and distributed systems. Completed AWS Academy certifications in Cloud Architecting and Cloud Foundations, demonstrating proficiency in AWS cloud solutions.",
+    startDate: "Jul 2022",
+    endDate: "Sept 2022",
+    skills: [
+      "AWS",
+      "AWS IAM",
+      "AWS S3",
+      "AWS EC2",
+      "AWS VPC",
+      "AWS RDS",
+      "AWS CloudFront",
+    ],
+  },
+];

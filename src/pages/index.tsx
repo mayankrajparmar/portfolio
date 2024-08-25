@@ -1,3 +1,4 @@
+import { ExperienceSection } from "@/components/home/experience";
 import { ExpertiseSection } from "@/components/home/expertise";
 import { HeroSection } from "@/components/home/hero";
 import { SkillSection } from "@/components/home/skills";
@@ -11,6 +12,7 @@ export default function Home() {
           <HeroSection />
           <SkillSection />
           <ExpertiseSection />
+          <ExperienceSection />
         </div>
       </PublicLayout>
     </section>
