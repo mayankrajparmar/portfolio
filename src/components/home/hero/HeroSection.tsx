@@ -37,7 +37,7 @@ const TextArea = () => {
         {`Start />`}
       </motion.div>
       <div className="flex flex-col md:gap-3 lg:gap-4 h-32 md:h-auto">
-        <span className="text-lg text-light-sky"> Hi, my name is</span>
+        <span className="text-lg text-light-sky"> Hi, I am</span>
         <div className="text-light-sky">
           <span className="text-light-yellow font-[Inter]">
             {"Mayank Raj Parmar"?.split("")?.map((data, i) => (
