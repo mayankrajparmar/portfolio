@@ -1,7 +1,6 @@
 import { HeroSection } from "@/components/home/hero";
+import { SkillSection } from "@/components/home/skills";
 import { PublicLayout } from "@/components/layouts";
-import { AnimatePresence, motion } from "framer-motion";
-import { useEffect, useState } from "react";
 
 export default function Home() {
   return (
@@ -9,6 +8,7 @@ export default function Home() {
       <PublicLayout title="Mayank Raj Parmar | Full Stack Web Developer">
         <div className="w-full relative h-full ">
           <HeroSection />
+          <SkillSection />
         </div>
       </PublicLayout>
     </section>

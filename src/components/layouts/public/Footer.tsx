@@ -34,8 +34,8 @@ const Footer = () => {
           >
             <p>
               Develop and Design by{" "}
-              <span className="text-light-yellow">Chandan</span> <span>| </span>
-              © copyright {new Date().getFullYear()} Chandan. All rights
+              <span className="text-light-yellow">Mayank</span> <span>| </span>©
+              copyright {new Date().getFullYear()} Mayank Raj Parmar. All rights
               reserved.
             </p>
             <p></p>

@@ -161,3 +161,54 @@ export const heroSliderSettings = {
     },
   ],
 };
+
+// skill section icon data
+export const skillSectionIconsArray = [
+  {
+    title: "Javascript",
+  },
+  {
+    title: "Typescript",
+  },
+  {
+    title: "Python",
+  },
+  {
+    title: "Node.js",
+  },
+];
+
+// skill section slider configuration
+export const skillSliderSettings = {
+  dots: false,
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  speed: 30000,
+  cssEase: "linear",
+  autoplaySpeed: 0,
+  pauseOnHover: false,
+  arrows: false,
+  rtl: true,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+      },
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+      },
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 2,
+      },
+    },
+  ],
+};
