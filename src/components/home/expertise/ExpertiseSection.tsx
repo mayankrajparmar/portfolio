@@ -11,7 +11,7 @@ import ExpertiseTimeLine from "./ExpertiseTimeLine";
 // expertise data
 export const expertiseData = [
   {
-    heading: <p>Software Development</p>,
+    heading: <div>Software Development</div>,
     description:
       "Experienced in both function and OOP: Javascript, Typescript, Python",
     icon: <CiDesktop />,
@@ -20,7 +20,7 @@ export const expertiseData = [
     outerClass: "bg-milk/20",
   },
   {
-    heading: <p>Frontend Dev React, NextJS</p>,
+    heading: <div>Frontend Dev React, NextJS</div>,
     description:
       "Over 2 years of development experience in React, NextJS and Other frontend libraries.",
     icon: <FaReact />,
@@ -29,7 +29,7 @@ export const expertiseData = [
     outerClass: "bg-light-sky/40",
   },
   {
-    heading: <p>Backend Dev Node, Express</p>,
+    heading: <div>Backend Dev Node, Express</div>,
     description:
       "Experienced in crafting efficient cross-platform backends using Node.js and Express.",
     icon: <SiExpress />,

@@ -25,9 +25,9 @@ const ExpertiseCard = ({
         <div
           className={`h-full rounded-md p-3 md:p-2 lg:p-3 ${curExpertise.class}`}
         >
-          <p className="text-lg font-semibold text-white/90 whitespace-normal">
+          <div className="text-lg font-semibold text-white/90 whitespace-normal">
             {curExpertise?.heading}
-          </p>
+          </div>
           <p className="text-sm lg:text-base text-white/70">
             {curExpertise?.description}
           </p>
