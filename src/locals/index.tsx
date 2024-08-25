@@ -276,3 +276,15 @@ export const experienceData = [
     ],
   },
 ];
+
+// project list
+export const projectLists = [
+  {
+    name: "Portfolio",
+    description:
+      "Explore my portfolio crafted with Next.js, Tailwind CSS, and Framer Motion. Discover sleek designs, responsive layouts, and captivating animations.",
+    image: "/projects/portfolio.png",
+    tech: ["Next.js", "TailwindCSS", "Framer Motion", "Vercel", "Firebase"],
+    link: "https://mayankrajparmar.vercel.app/",
+  },
+];
