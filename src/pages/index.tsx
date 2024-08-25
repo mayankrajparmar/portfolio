@@ -1,3 +1,4 @@
+import { ExpertiseSection } from "@/components/home/expertise";
 import { HeroSection } from "@/components/home/hero";
 import { SkillSection } from "@/components/home/skills";
 import { PublicLayout } from "@/components/layouts";
@@ -9,6 +10,7 @@ export default function Home() {
         <div className="w-full relative h-full ">
           <HeroSection />
           <SkillSection />
+          <ExpertiseSection />
         </div>
       </PublicLayout>
     </section>
