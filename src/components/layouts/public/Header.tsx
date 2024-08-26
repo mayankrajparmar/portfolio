@@ -72,7 +72,7 @@ const Header = () => {
                 animate={!showDrawer ? { x: 0 } : { x: 10 }}
                 transition={{ duration: 0.3 }}
               >
-                The
+                {`<The`}
               </motion.p>
               <motion.p
                 initial={{ x: 40 }}
@@ -86,7 +86,7 @@ const Header = () => {
                 animate={!showDrawer ? { x: 0 } : { x: 30 }}
                 transition={{ duration: 0.5 }}
               >
-                Bro
+                {`Bro/>`}
               </motion.p>
             </div>
           </Link>
