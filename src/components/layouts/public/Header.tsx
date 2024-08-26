@@ -1,5 +1,6 @@
 import { navigationData, socialIconList } from "@/locals";
 import { AnimatePresence, motion } from "framer-motion";
+import Link from "next/link";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
@@ -64,33 +65,31 @@ const Header = () => {
         }`}
       >
         <div className="flex justify-between items-center px-4 py-3 md:py-5 main-container">
-          <div
-            className="flex group items-center gap-2 text-lg w-fit hover:gap-5 common-transition hover:text-light-yellow"
-            onClick={() => push("/")}
-          >
-            <motion.p
-              initial={{ x: 20 }}
-              animate={!showDrawer ? { x: 0 } : { x: 10 }}
-              transition={{ duration: 0.3 }}
-            >
-              The
-            </motion.p>
-            <motion.p
-              initial={{ x: 40 }}
-              animate={!showDrawer ? { x: 0 } : { x: 20 }}
-              transition={{ duration: 0.4 }}
-            >
-              Programmer
-            </motion.p>
-            <motion.p
-              initial={{ x: 60 }}
-              animate={!showDrawer ? { x: 0 } : { x: 30 }}
-              transition={{ duration: 0.5 }}
-            >
-              Bro
-            </motion.p>
-          </div>
-
+          <Link href="https://www.instagram.com/theprogrammerbro">
+            <div className="flex group items-center gap-2 text-lg w-fit hover:gap-5 common-transition hover:text-light-yellow">
+              <motion.p
+                initial={{ x: 20 }}
+                animate={!showDrawer ? { x: 0 } : { x: 10 }}
+                transition={{ duration: 0.3 }}
+              >
+                The
+              </motion.p>
+              <motion.p
+                initial={{ x: 40 }}
+                animate={!showDrawer ? { x: 0 } : { x: 20 }}
+                transition={{ duration: 0.4 }}
+              >
+                Programmer
+              </motion.p>
+              <motion.p
+                initial={{ x: 60 }}
+                animate={!showDrawer ? { x: 0 } : { x: 30 }}
+                transition={{ duration: 0.5 }}
+              >
+                Bro
+              </motion.p>
+            </div>
+          </Link>
           <motion.button
             className="cursor-pointer md:hidden"
             onClick={() => setShowDrawer(!showDrawer)}
@@ -204,22 +203,24 @@ const Header = () => {
 
               <div className="absolute bottom-10 left-8 w-full flex gap-4">
                 {socialIconList.map((curIcon, index) => (
-                  <motion.a
-                    viewport={{ once: true }}
-                    initial={{ y: 40, opacity: 0 }}
-                    whileInView={{ y: 0, opacity: 1 }}
-                    transition={{ duration: 0.4, delay: index * 0.3 }}
-                    exit={{ y: 40, opacity: 0 }}
-                    href={curIcon.link}
-                    target="_blank"
-                    key={index}
-                  >
-                    <div
-                      className={`text-2xl w-12 h-12 flex items-center justify-center common-transition text-milk/60`}
+                  <Link href={curIcon.link}>
+                    <motion.a
+                      viewport={{ once: true }}
+                      initial={{ y: 40, opacity: 0 }}
+                      whileInView={{ y: 0, opacity: 1 }}
+                      transition={{ duration: 0.4, delay: index * 0.3 }}
+                      exit={{ y: 40, opacity: 0 }}
+                      // href={curIcon.link}
+                      target="_blank"
+                      key={index}
                     >
-                      {curIcon.icon}
-                    </div>
-                  </motion.a>
+                      <div
+                        className={`text-2xl w-12 h-12 flex items-center justify-center common-transition text-milk/60`}
+                      >
+                        {curIcon.icon}
+                      </div>
+                    </motion.a>
+                  </Link>
                 ))}
               </div>
             </div>

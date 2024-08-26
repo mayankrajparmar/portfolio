@@ -37,7 +37,7 @@ export default function Home() {
           </motion.div>
         ) : (
           <PublicLayout title="Mayank Raj Parmar | Full Stack Web Developer">
-            <div className="w-full relative h-full ">
+            <div className="w-full relative h-full">
               <div className="fixed z-[200] right-1 md:right-8 bottom-2">
                 <SocialIconList />
               </div>

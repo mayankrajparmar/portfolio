@@ -1,4 +1,5 @@
 import { BiCommentDetail, BiLogoGmail } from "react-icons/bi";
+import { BsInstagram } from "react-icons/bs";
 import { DiMongodb } from "react-icons/di";
 import {
   FaCss3,
@@ -58,6 +59,11 @@ export const navigationData = [
 ];
 
 export const socialIconList = [
+  {
+    icon: <BsInstagram />,
+    link: "https://www.instagram.com/theprogrammerbro",
+    color: "bg-fuchsia-700 text-white",
+  },
   {
     icon: <FiGithub />,
     link: "https://github.com/mayankrajparmar",

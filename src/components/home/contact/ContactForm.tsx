@@ -4,8 +4,10 @@ import { Success } from "@/assets/utility";
 import { CustomDialog, CustomInput } from "@/components/core";
 import { configs } from "@/configs";
 import { Field, FieldProps, Form, Formik, FormikHelpers } from "formik";
+import Link from "next/link";
 import { useState } from "react";
 import { BiLogoGmail } from "react-icons/bi";
+import { BsInstagram } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FiGithub } from "react-icons/fi";
 import * as Yup from "yup";
@@ -21,6 +23,11 @@ type ValueProps =
     };
 
 const socialIconList = [
+  {
+    icon: <BsInstagram />,
+    link: "https://www.instagram.com/theprogrammerbro",
+    color: "bg-fuchsia-700 text-white",
+  },
   {
     icon: <FiGithub />,
     link: "https://github.com/mayankrajparmar",
@@ -162,13 +169,13 @@ const ContactForm = () => {
           </div>
           <div className="flex items-center gap-4 justify-center">
             {socialIconList.map((curIcon) => (
-              <a href={curIcon.link} key={curIcon.link} target="_blank">
+              <Link href={curIcon.link} key={curIcon.link} target="_blank">
                 <div
                   className={`${curIcon.color} w-10 h-10 text-white flex items-center justify-center rounded-lg text-lg`}
                 >
                   {curIcon.icon}
                 </div>
-              </a>
+              </Link>
             ))}
           </div>
         </div>
