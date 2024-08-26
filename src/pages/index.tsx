@@ -1,4 +1,5 @@
 import { Projects } from "@/components/home";
+import { ContactSection } from "@/components/home/contact";
 import { DevSection } from "@/components/home/devs";
 import { ExperienceSection } from "@/components/home/experience";
 import { ExpertiseSection } from "@/components/home/expertise";
@@ -17,6 +18,7 @@ export default function Home() {
           <ExperienceSection />
           <Projects />
           <DevSection />
+          <ContactSection />
         </div>
       </PublicLayout>
     </section>
