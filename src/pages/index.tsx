@@ -1,4 +1,4 @@
-import { Loader } from "@/components/common";
+import { Loader, SeoContent } from "@/components/common";
 import {
   ContactSection,
   DevSection,
@@ -22,6 +22,7 @@ export default function Home() {
 
   return (
     <section className="w-full">
+      <SeoContent />
       <AnimatePresence mode="wait">
         {isLoading ? (
           <motion.div
