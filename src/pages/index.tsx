@@ -5,6 +5,7 @@ import { ExperienceSection } from "@/components/home/experience";
 import { ExpertiseSection } from "@/components/home/expertise";
 import { HeroSection } from "@/components/home/hero";
 import { SkillSection } from "@/components/home/skills";
+import { TrackSection } from "@/components/home/track";
 import { PublicLayout } from "@/components/layouts";
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
           <Projects />
           <DevSection />
           <ContactSection />
+          <TrackSection />
         </div>
       </PublicLayout>
     </section>
