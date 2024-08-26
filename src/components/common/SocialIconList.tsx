@@ -7,7 +7,7 @@ const SocialIconList = () => {
     <div className="flex items-center flex-col gap-6">
       <div className="hidden md:flex flex-col gap-6">
         {socialIconList.map((curIcon, i) => (
-          <Link href={curIcon.link}>
+          <Link href={curIcon.link} key={i}>
             <motion.a
               viewport={{ once: true }}
               initial={{ y: 40, opacity: 0 }}
@@ -16,7 +16,6 @@ const SocialIconList = () => {
               exit={{ y: 40, opacity: 0 }}
               // href={curIcon.link}
               target="_blank"
-              key={i}
             >
               <div className="text-milk/60 text-xl common-transition hover:-translate-y-[1px] hover:text-milk/90">
                 {curIcon.icon}

@@ -203,7 +203,7 @@ const Header = () => {
 
               <div className="absolute bottom-10 left-8 w-full flex gap-4">
                 {socialIconList.map((curIcon, index) => (
-                  <Link href={curIcon.link}>
+                  <Link href={curIcon.link} key={index}>
                     <motion.a
                       viewport={{ once: true }}
                       initial={{ y: 40, opacity: 0 }}
@@ -212,7 +212,6 @@ const Header = () => {
                       exit={{ y: 40, opacity: 0 }}
                       // href={curIcon.link}
                       target="_blank"
-                      key={index}
                     >
                       <div
                         className={`text-2xl w-12 h-12 flex items-center justify-center common-transition text-milk/60`}
