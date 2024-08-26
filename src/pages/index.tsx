@@ -1,4 +1,4 @@
-import { Loader, SeoContent } from "@/components/common";
+import { Loader, SeoContent, SocialIconList } from "@/components/common";
 import {
   ContactSection,
   DevSection,
@@ -36,8 +36,11 @@ export default function Home() {
             <Loader />
           </motion.div>
         ) : (
-          <PublicLayout title="Chandan Patnaik | Full Stack Web Developer">
+          <PublicLayout title="Mayank Raj Parmar | Full Stack Web Developer">
             <div className="w-full relative h-full ">
+              <div className="fixed z-[200] right-1 md:right-8 bottom-2">
+                <SocialIconList />
+              </div>
               <HeroSection />
               <SkillSection />
               <ExpertiseSection />
