@@ -286,6 +286,60 @@ export const experienceData = [
 // project list
 export const projectLists = [
   {
+    name: "GrowingMind",
+    description:
+      "Developed a website for Odisha's first autism therapy center, focusing on accessibility and user engagement. This project was completed while working as an employee of SearchingYard Group.",
+    image: "/projects/growingMind.png",
+    tech: ["Next.js", "TailwindCSS", "Firebase", "Material UI", "Typescript"],
+    link: "https://www.thegrowingmind.in/",
+  },
+  {
+    name: "Maa Siddheshwari Trust",
+    description:
+      "Created a website for Maa Siddheshwari Trust, designed for easy navigation and donor engagement. This project was completed while working as an employee of SearchingYard Group.",
+    image: "/projects/maaSiddheshwari.png",
+    tech: ["Next.js", "TailwindCSS", "Firebase", "Material UI", "Typescript"],
+    link: "https://www.maasiddheshwari.org/",
+  },
+  {
+    name: "Yard E-Commerce",
+    description:
+      "Built an e-commerce site for medical equipment with a secure, user-friendly interface. This project was completed while working as an employee of SearchingYard Group.",
+    image: "/projects/yardEcommerce.png",
+    tech: [
+      "Next.js",
+      "TailwindCSS",
+      "Framer Motion",
+      "Material UI",
+      "Typescript",
+      "Vercel",
+    ],
+    link: "https://yard-ecommerce-web.vercel.app/",
+  },
+  {
+    name: "The Aditya Group",
+    description:
+      "Developed a responsive corporate website for Aditya Group, reflecting their brand and services. This project was completed while working as an employee of SearchingYard Group.",
+    image: "/projects/adityaGroup.png",
+    tech: ["Next.js", "TailwindCSS", "Material UI", "Typescript", "Firebase"],
+    link: "https://www.theadityagroup.com/",
+  },
+  {
+    name: "Court Web",
+    description:
+      "Designed a user-friendly website for court-related information and services. This project was completed while working as an employee of SearchingYard Group.",
+    image: "/projects/courtWeb.png",
+    tech: [
+      "Next.js",
+      "TailwindCSS",
+      "Vercel",
+      "Material UI",
+      "Typescript",
+      "React Icons",
+    ],
+    link: "https://court-web-iota.vercel.app/",
+  },
+  {
     name: "Portfolio",
     description:
       "Explore my portfolio crafted with Next.js, Tailwind CSS, and Framer Motion. Discover sleek designs, responsive layouts, and captivating animations.",
